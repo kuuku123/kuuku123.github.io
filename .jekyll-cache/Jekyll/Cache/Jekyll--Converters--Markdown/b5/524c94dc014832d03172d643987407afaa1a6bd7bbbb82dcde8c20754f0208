@@ -1,0 +1,24 @@
+I"³<h2 id="segement-tree">segement tree</h2>
+
+<h3 id="searching-for-min-value-in-given-range">searching for min value in given range</h3>
+
+<p style="text-align:coenter;"><img src="/assets/img/2020-10-9/segmentTreeConstruct.png" alt="segmentTree Contsturct" width="700" height="400" /></p>
+
+<p>Above code is creating segment tree in array. it is constructing tree in <strong>bottom up</strong> style.</p>
+
+<p style="text-align:coenter;"><img src="/assets/img/2020-10-9/searchMin.png" alt="segmentTree Contsturct" width="700" height="400" /></p>
+
+<p>After creating tree now you can search for min value in given range.
+To search you need to remeber <strong>three rule</strong>.</p>
+<ol>
+  <li><strong>partial overlap</strong> == you search(go down) and look for both side</li>
+  <li><strong>total overlap</strong> == it means that your query range is bigger than subtree so you return the minvalue at that subtree root</li>
+  <li><strong>no overlap</strong> == you donâ€™t care you return Max value</li>
+</ol>
+
+<h3 id="reference">Reference</h3>
+
+<ol>
+  <li><a href="https://www.youtube.com/watch?v=ZBHKZF5w4YU&amp;ab_channel=TusharRoy-CodingMadeSimple">segment Tree(min search in given range)</a></li>
+</ol>
+:ET
