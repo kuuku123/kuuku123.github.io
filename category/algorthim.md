@@ -1,0 +1,4 @@
+---
+layout: cateogry
+category: algorithm
+---
