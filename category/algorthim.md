@@ -1,4 +1,4 @@
 ---
-layout: cateogry
+layout: category
 category: algorithm
 ---
